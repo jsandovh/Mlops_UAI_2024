@@ -6,7 +6,7 @@ import warnings
 from openai import OpenAI
 import pandas as pd
 warnings.filterwarnings("ignore")
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 def generate_a(texto):
     """
@@ -27,5 +27,7 @@ def generate_a(texto):
     return information.choices[0].message.content
 
 
-# texto='que es deep learning'
+# texto='que es la vida'
 # generate_a(texto)
+#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
+#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
